@@ -62,7 +62,7 @@
             "type": "anitya",
             "project-id": 8763,
             "stable-only": true,
-            "url-template": "https://download.kde.org/stable/ksirk/$version/ksirk-$version.tar.xz"
+            "url-template": "https://download.kde.org/stable/release-service/$version/src/ksirk-$version.tar.xz"
           }
         },
         {

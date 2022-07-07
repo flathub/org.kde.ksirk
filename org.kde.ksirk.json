@@ -1,75 +1,75 @@
 {
-  "app-id": "org.kde.ksirk",
-  "runtime": "org.kde.Platform",
-  "runtime-version": "5.15-21.08",
-  "sdk": "org.kde.Sdk",
-  "command": "ksirk",
-  "rename-icon": "ksirk",
-  "finish-args": [
-    "--socket=pulseaudio",
-    "--share=network",
-    "--share=ipc",
-    "--socket=wayland",
-    "--socket=fallback-x11"
-  ],
-  "modules": [
-    {
-      "name": "libkdegames",
-      "buildsystem": "cmake-ninja",
-      "sources": [
+    "app-id": "org.kde.ksirk",
+    "runtime": "org.kde.Platform",
+    "runtime-version": "5.15-21.08",
+    "sdk": "org.kde.Sdk",
+    "command": "ksirk",
+    "rename-icon": "ksirk",
+    "finish-args": [
+        "--socket=pulseaudio",
+        "--share=network",
+        "--share=ipc",
+        "--socket=wayland",
+        "--socket=fallback-x11"
+    ],
+    "modules": [
         {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.04.2/src/libkdegames-22.04.2.tar.xz",
-          "sha256": "c33af6c13540add132122b36b2faabc1f0beaf2c06d29e575f7789f1c5342911",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdegames-$version.tar.xz"
-          }
-        }
-      ]
-    },
-    {
-      "name": "libqca",
-      "buildsystem": "cmake-ninja",
-      "config-opts": [
-        "-DBUILD_TESTS=OFF"
-      ],
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/qca/2.3.3/qca-2.3.3.tar.xz",
-          "sha256": "562e8f9b8542944e2c0c18c45c05bb202f620db84032790c54b424454f727b67",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 13606,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/qca/$version/src/qca-$version.tar.xz"
-          }
-        }
-      ]
-    },
-    {
-      "name": "ksirk",
-      "buildsystem": "cmake-ninja",
-      "sources": [
-        {
-          "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.04.2/src/ksirk-22.04.2.tar.xz",
-          "sha256": "d095bde49d31eccad2c6ae3b16f280534cc546658f08bbc299b1cc0e0ae6e3bf",
-          "x-checker-data": {
-            "type": "anitya",
-            "project-id": 8763,
-            "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/src/ksirk-$version.tar.xz"
-          }
+            "name": "libkdegames",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkdegames-22.04.3.tar.xz",
+                    "sha256": "f6af5b98c6f5a4061b5124d04e5cf0c2cc9e21df93824559153d5565d541f845",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/libkdegames-$version.tar.xz"
+                    }
+                }
+            ]
         },
         {
-          "type": "patch",
-          "path": "appdata.patch"
+            "name": "libqca",
+            "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_TESTS=OFF"
+            ],
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/qca/2.3.3/qca-2.3.3.tar.xz",
+                    "sha256": "562e8f9b8542944e2c0c18c45c05bb202f620db84032790c54b424454f727b67",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 13606,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/qca/$version/src/qca-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "ksirk",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/ksirk-22.04.3.tar.xz",
+                    "sha256": "9d2f5c8c7891978e7e91646fd6e423be419a682d62c13f7cab996129e2d03430",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/ksirk-$version.tar.xz"
+                    }
+                },
+                {
+                    "type": "patch",
+                    "path": "appdata.patch"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

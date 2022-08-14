@@ -6,6 +6,7 @@
     "command": "ksirk",
     "rename-icon": "ksirk",
     "finish-args": [
+        "--device=dri",
         "--socket=pulseaudio",
         "--share=network",
         "--share=ipc",

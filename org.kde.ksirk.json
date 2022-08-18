@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/libkdegames-22.04.3.tar.xz",
-                    "sha256": "f6af5b98c6f5a4061b5124d04e5cf0c2cc9e21df93824559153d5565d541f845",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/libkdegames-22.08.0.tar.xz",
+                    "sha256": "ab05833df6b8de50e4b13e23f7dee9b8c7447ce08623b7680d110880f5b8ed80",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -57,18 +57,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.04.3/src/ksirk-22.04.3.tar.xz",
-                    "sha256": "9d2f5c8c7891978e7e91646fd6e423be419a682d62c13f7cab996129e2d03430",
+                    "url": "https://download.kde.org/stable/release-service/22.08.0/src/ksirk-22.08.0.tar.xz",
+                    "sha256": "e17e00b744b2a7abcd9f32b2ae15109eea84377d248a083658991a207802bf5d",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/ksirk-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
                 }
             ]
         }

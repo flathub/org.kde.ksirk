@@ -20,8 +20,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/libkdegames-23.08.0.tar.xz",
-                    "sha256": "8799c705256b8d8735070058ecc6dea72c54e2500f179d9654ec2a86e41bcb8a",
+                    "url": "https://download.kde.org/stable/release-service/23.08.1/src/libkdegames-23.08.1.tar.xz",
+                    "sha256": "0ea260a762bf9dcc27f793fea1628c7653383ab5b5e41e50cf2ae4a62aa7db97",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -57,8 +57,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/ksirk-23.08.0.tar.xz",
-                    "sha256": "d1a1074836c851568ccf451da16af48e5fad46e66e35daf71e6829a6d7922b77",
+                    "url": "https://download.kde.org/stable/release-service/23.08.1/src/ksirk-23.08.1.tar.xz",
+                    "sha256": "2d5eb6bb2e7f960bd70405114d0b7b959119390b92c015204ac4540edb620c45",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

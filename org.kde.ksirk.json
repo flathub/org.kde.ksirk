@@ -7,11 +7,11 @@
     "rename-icon": "ksirk",
     "finish-args": [
         "--device=dri",
-        "--socket=pulseaudio",
-        "--share=network",
         "--share=ipc",
-        "--socket=wayland",
-        "--socket=fallback-x11"
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=pulseaudio",
+        "--socket=wayland"
     ],
     "modules": [
         {

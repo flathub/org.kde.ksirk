@@ -58,8 +58,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/ksirk-24.08.3.tar.xz",
-                    "sha256": "449b202b743359bce4c589fab0da4b17912dac12cdca0a7f85d5cae6c0f028a6",
+                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/ksirk-24.12.0.tar.xz",
+                    "sha256": "0b0cf308a5ef3b091ccc9a88c75c1d148469d6d4fba2e47fbdc10d55bae2097c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,

@@ -32,27 +32,6 @@
             ]
         },
         {
-            "name": "qca",
-            "buildsystem": "cmake-ninja",
-            "config-opts": [
-                "-DBUILD_TESTS=OFF",
-                "-DBUILD_WITH_QT6=ON"
-            ],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/qca/2.3.9/qca-2.3.9.tar.xz",
-                    "sha256": "c555d5298cdd7b6bafe2b1f96106f30cfa543a23d459d50c8a91eac33c476e4e",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 13606,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/qca/$version/qca-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "ksirk",
             "buildsystem": "cmake-ninja",
             "sources": [
